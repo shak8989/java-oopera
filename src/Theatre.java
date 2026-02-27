@@ -5,13 +5,12 @@ public class Theatre {
     public static void main(String[] args) {
 
 
-        Actor actor1 = new Actor("Иван", "Петров", "мужской",180);
-        Actor actor2 = new Actor("Анна", "Сидорова", "женский", 165);
-        Actor actor3 = new Actor("Олег", "Иванов", "мужской", 175);
+        Actor actor1 = new Actor("Иван", "Петров", Gender.MALE, 180);
+        Actor actor2 = new Actor("Анна", "Сидорова", Gender.FEMALE, 165);
+        Actor actor3 = new Actor("Олег", "Иванов", Gender.MALE, 175);
 
-
-        Director director1 = new Director("Сергей", "Волков", "мужской", 10);
-        Director director2 = new Director("Мария", "Смирнова", "женский", 7);
+        Director director1 = new Director("Сергей", "Волков", Gender.MALE, 10);
+        Director director2 = new Director("Мария", "Смирнова", Gender.FEMALE, 7);
 
 
         String musicAuthor = "Чайковский";

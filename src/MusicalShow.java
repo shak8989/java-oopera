@@ -12,6 +12,7 @@ public class MusicalShow extends Show {
 
 
     public void printLibretto() {
+
         System.out.println(librettoText);
     } // Метод должен выводить на экран содержимое поля
 
